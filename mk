@@ -46,3 +46,5 @@ if [ "$NOTEST" != "" ]; then
   echo "...skipping tests"
 fi
 
+mvn install $NOTEST
+
